@@ -1,56 +1,10 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "pouchdb-adapter-http@6.1.1",
-        "scope": null,
-        "escapedName": "pouchdb-adapter-http",
-        "name": "pouchdb-adapter-http",
-        "rawSpec": "6.1.1",
-        "spec": "6.1.1",
-        "type": "version"
-      },
-      "/Users/gyand/Work/pouchdb-react-native/packages/pouchdb-react-native"
-    ]
-  ],
-  "_from": "pouchdb-adapter-http@6.1.1",
-  "_id": "pouchdb-adapter-http@6.1.1",
-  "_inCache": true,
-  "_location": "/pouchdb-adapter-http",
-  "_nodeVersion": "6.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/pouchdb-adapter-http-6.1.1.tgz_1483621916780_0.700336632784456"
-  },
-  "_npmUser": {
-    "name": "daleharvey",
-    "email": "dale@arandomurl.com"
-  },
-  "_npmVersion": "3.8.6",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "pouchdb-adapter-http@6.1.1",
-    "scope": null,
-    "escapedName": "pouchdb-adapter-http",
-    "name": "pouchdb-adapter-http",
-    "rawSpec": "6.1.1",
-    "spec": "6.1.1",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/pouchdb-adapter-http/-/pouchdb-adapter-http-6.1.1.tgz",
-  "_shasum": "df22128e5306f454ee7fc175099cd77f75a4f8f0",
-  "_shrinkwrap": null,
-  "_spec": "pouchdb-adapter-http@6.1.1",
-  "_where": "/Users/gyand/Work/pouchdb-react-native/packages/pouchdb-react-native",
   "author": {
-    "name": "Dale Harvey",
-    "email": "dale@arandomurl.com"
+    "name": "Andras Gyetvan",
+    "email": "gyetvan.andras@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/pouchdb/pouchdb/issues"
+    "url": "https://github.com/gyetvan-andras/pouchdb-adapter-http-jwt/issues"
   },
   "dependencies": {
     "argsarray": "0.0.1",
@@ -61,7 +15,7 @@
     "pouchdb-promise": "6.1.1",
     "pouchdb-utils": "6.1.1"
   },
-  "description": "PouchDB adapter using HTTP (e.g. a remote CouchDB) as its data store.",
+  "description": "PouchDB adapter using HTTP with JWT support (e.g. a remote CouchDB) as its data store.",
   "devDependencies": {},
   "directories": {},
   "dist": {
@@ -72,32 +26,24 @@
     "lib",
     "src"
   ],
-  "homepage": "https://github.com/pouchdb/pouchdb#readme",
+  "homepage": "https://github.com/gyetvan-andras/pouchdb-adapter-http-jwt",
   "jsnext:main": "./src/index.js",
   "keywords": [],
   "license": "Apache-2.0",
   "main": "./lib/index.js",
   "maintainers": [
     {
-      "name": "daleharvey",
-      "email": "dale@arandomurl.com"
-    },
-    {
-      "name": "nickcolley",
-      "email": "nickcolley7@gmail.com"
-    },
-    {
-      "name": "nolanlawson",
-      "email": "nolan@nolanlawson.com"
+      "name": "gyetvan.andras",
+      "email": "gyetvan.andras@gmail.com"
     }
   ],
-  "name": "pouchdb-adapter-http",
+  "name": "pouchdb-adapter-http-jwt",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pouchdb/pouchdb.git"
+    "url": "git+https://github.com/gyetvan-andras/pouchdb-adapter-http-jwt.git"
   },
   "scripts": {},
-  "version": "6.1.1"
+  "version": "0.0.1"
 }
