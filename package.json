@@ -41,5 +41,5 @@
     "url": "git+https://github.com/gyetvan-andras/pouchdb-adapter-http-jwt.git"
   },
   "scripts": {},
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
